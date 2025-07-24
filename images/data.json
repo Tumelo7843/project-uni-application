@@ -1,0 +1,74 @@
+{
+  "provinces": {
+    "Eastern Cape": [
+      "Nelson Mandela University",
+      "Rhodes University",
+      "Walter Sisulu University",
+      "University of Fort Hare"
+    ],
+    "Free State": [
+      "University of the Free State",
+      "Central University of Technology"
+    ],
+    "Gauteng": [
+      "University of Pretoria",
+      "University of Johannesburg",
+      "University of the Witwatersrand",
+      "Tshwane University of Technology",
+      "Vaal University of Technology",
+      "Sefako Makgatho Health Sciences University"
+    ],
+    "KwaZulu-Natal": [
+      "University of KwaZulu-Natal",
+      "Mangosuthu University of Technology",
+      "Durban University of Technology"
+    ],
+    "Limpopo": [
+      "University of Limpopo",
+      "University of Venda"
+    ],
+    "Mpumalanga": [
+      "University of Mpumalanga"
+    ],
+    "Northern Cape": [
+      "Sol Plaatje University"
+    ],
+    "North West": [
+      "North-West University"
+    ],
+    "Western Cape": [
+      "University of Cape Town",
+      "University of the Western Cape",
+      "Cape Peninsula University of Technology",
+      "Stellenbosch University"
+    ]
+  },
+  "universities": {
+    "Nelson Mandela University": ["Engineering", "Business", "Law"],
+    "Rhodes University": ["Arts", "Science", "Journalism"],
+    "Walter Sisulu University": ["Health Sciences", "Education"],
+    "University of Fort Hare": ["Agriculture", "Law"],
+    "University of the Free State": ["Medicine", "Law", "Economics"],
+    "Central University of Technology": ["Engineering", "IT"],
+    "University of Pretoria": ["Law", "Engineering", "Medicine"],
+    "University of Johannesburg": ["Business", "Art", "Science"],
+    "University of the Witwatersrand": ["Engineering", "Medicine", "Law"],
+    "Tshwane University of Technology": ["Engineering", "Design"],
+    "Vaal University of Technology": ["Engineering", "IT"],
+    "Sefako Makgatho Health Sciences University": ["Health Sciences"],
+    "University of KwaZulu-Natal": ["Law", "Medicine", "Science"],
+    "Mangosuthu University of Technology": ["Engineering", "IT"],
+    "Durban University of Technology": ["Design", "Business"],
+    "University of Limpopo": ["Agriculture", "Health Sciences"],
+    "University of Venda": ["Education", "Law"],
+    "University of Mpumalanga": ["Agriculture", "Education"],
+    "Sol Plaatje University": ["Humanities", "Science"],
+    "North-West University": ["Business", "Law"],
+    "University of Cape Town": ["Engineering", "Law", "Medicine"],
+    "University of the Western Cape": ["Law", "Science"],
+    "Cape Peninsula University of Technology": ["Engineering", "Design"],
+    "Stellenbosch University": ["Agriculture", "Business", "Law"]
+  }
+
+  
+}

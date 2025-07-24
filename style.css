@@ -1,0 +1,239 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 30px;
+}
+.university{
+  display: none;
+}
+#provinces {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px; /* Increased gap for more space between grids */
+  width: 95%;
+  max-width: 1200px;
+  margin: 60px auto 0 auto;
+}
+
+.province {
+  color: #080808;
+  padding: 15px;
+  margin: 0; /* Remove top margin for grid layout */
+  width: 100%; /* Full width of grid cell */
+  max-width: 500px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  transition: background 0.2s;
+  font-weight: 900;
+  height: 9rem;
+}
+.uni{
+  display: block;
+}
+.province:hover {
+    transform: scale(1.05);
+}
+
+/* images for each province */
+.province-eastern-cape {
+  background-image: url('./images/eastern-cape.jpg');
+}
+.province-free-state {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=80');
+}
+.province-gauteng {
+  background-image: url('./images/kyle-philip-coulson-DfnJWjK63gQ-unsplash.jpg');
+}
+.province-kwazulu-natal {
+  background-image: url('./images/kzn.jpg');
+}
+.province-limpopo {
+  background-image: url('./images/limpopo.jpg');
+}
+.province-mpumalanga {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=80');
+}
+.province-northern-cape {
+  background-image: url('./images/nothern-cape.jpg');
+}
+.province-north-west {
+  background-image: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=500&q=80');
+}
+.province-western-cape {
+  background-image: url('./images/western-cape.jpg');
+}
+
+/* Common province background styles */
+.province {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.province::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  z-index: 0;
+}
+.province * {
+  position: relative;
+  z-index: 1;
+}
+
+#provinces ul {
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  width: 90%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#provinces li {
+  background: #fff;
+  color: #3498db;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 0 1px 4px rgba(44,62,80,0.05);
+  transition: background 0.2s, color 0.2s;
+}
+
+#provinces li:hover {
+  background: #eaf6fb;
+  color: #217dbb;
+}
+
+#course-popup {
+  font-family: inherit;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(44,62,80,0.15);
+}
+
+#course-popup h3 {
+  margin-top: 0;
+  color: #3498db;
+}
+
+#course-popup button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 1em;
+  transition: background 0.2s;
+}
+
+#course-popup button:hover {
+  background: #217dbb;
+}
+
+/* Add below your existing styles or at the end */
+
+nav {
+  background: #217dbb;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 24px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 16px 0;
+  display: block;
+  transition: color 0.2s, border-bottom 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  color: #eaf6fb;
+  border-bottom: 2px solid #fff;
+}
+
+.footer {
+  background-color: #fdfcfc;
+  color: #0c0c0c;
+  padding: 40px 0 20px;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-contact, .footer-social {
+  margin: 20px 0;
+}
+
+.footer-contact h3, .footer-social h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.footer-contact p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer-contact i, .footer-social i {
+  margin-right: 10px;
+  color: #fca311;
+}
+
+.footer-social a {
+  margin-right: 15px;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #fca311;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
